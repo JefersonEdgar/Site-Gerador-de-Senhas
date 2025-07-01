@@ -3,8 +3,8 @@
 :root{
     --branco: white;
     --cor-de-fundo: #000000;
-    --fundo-senha: #ffea00;
-    --fundo-texto: #ffea00;
+    --fundo-senha: #006eff;
+    --fundo-texto: #006eff;
     --borda: #00bbff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -84,7 +84,10 @@ body{
     width: 50%;
     margin: 0 auto;
 }
-
+.parametro-senha-butoes{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
